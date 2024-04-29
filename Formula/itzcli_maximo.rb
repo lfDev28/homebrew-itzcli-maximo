@@ -15,6 +15,9 @@ class ItzcliMaximo < Formula
         # Move the binary to the bin folder
         bin.install "itzcli"
 
+        bin.install "itz"
+
+
     end
 
     test do
