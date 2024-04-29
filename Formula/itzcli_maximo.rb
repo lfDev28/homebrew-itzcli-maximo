@@ -7,6 +7,7 @@ class ItzcliMaximo < Formula
 
     def install 
         bin.install "itz"
+        bin.install "itzcli"
     end
 
     test do
