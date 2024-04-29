@@ -9,7 +9,7 @@ class ItzcliMaximo < Formula
 
     def install 
         # Run the make files install command
-        system "make", "install"
+        system "make"
 
 
     end
