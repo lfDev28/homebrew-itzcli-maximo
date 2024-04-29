@@ -6,7 +6,15 @@ class ItzcliMaximo < Formula
     license "MIT"
 
     def install 
-        system "make install"
+        # Run the make files install command
+        system "make", "install", "PREFIX=#{prefix}"
+
+        # Rename the binary to itz
+        mv "#{bin}/itzcli", "#{bin}/itz"
+
+        # Create a symlink to the binary
+        bin.install_symlink "#{bin}/itz"
+
     end
 
     test do
