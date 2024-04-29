@@ -6,11 +6,11 @@ class ItzcliMaximo < Formula
     license "MIT"
 
     def install 
-        bin.install "itzcli"
+        bin.install "itz"
     end
 
     test do
-        system "#{bin}/itzcli", "--version"
+        system "#{bin}/itz", "--version"
     end
 
 end
