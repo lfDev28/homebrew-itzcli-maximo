@@ -6,7 +6,7 @@ class ItzcliMaximo < Formula
     license "MIT"
 
     def install 
-        bin.install "itz"
+        system "make", "install"
     end
 
     test do
