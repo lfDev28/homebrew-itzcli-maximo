@@ -2,7 +2,7 @@ class ItzcliMaximo < Formula
     desc "CLI for Techzone Provisioning - Maximo Team customization of root itzcli"
     homepage "https://github.com/lfDev28/itzcli"
     url "https://github.com/lfDev28/itzcli/archive/v0.1.31.tar.gz"
-    sha256 "867a4a816580a59c71cce7edc6978ded7dd66d9b230ebf2aec848a4a84173eb4"
+    sha256 "b14bf305ff68740fff297424566ca225f0acecdcbd0cec6cc2b1e6e8766b506d"
     license "MIT"
     version "v0.1.31"
 
